@@ -9,5 +9,8 @@ An interactive app can be found [here](https://mtyhon--modelflows-inyou.modal.ru
 ![varymassfeh](https://github.com/mtyhon/modelflows/blob/main/images/varymassfeh.gif)
 
 
-A pip-installable package is now available!
+A pip-installable package `modelflows` is available!
+
+
+## 
 
