@@ -1,6 +1,7 @@
-grid
+grid/
 .ipynb_checkpoints
-tests
+tests/
 modelflows.egg-info
 .pytest_cache
-dist
+dist/
+build/
