@@ -69,7 +69,7 @@ The use of a CUDA-capable GPU is highly recommended. The displayed arguments for
 
 #### Accessing samples
 
-`samples` provides a $N \times D + 1$ vector, where $N$ is the number of samples drawn from Sampling/Importance Resampling in the process of achieving `num_posterior_samples`. The last column represents sample likelihoods, while the first $D$ dimensions corresponds to posterior samples. `Emulator.labels` provides the identity of each column,
+`samples` provides a $N \times D + 1$ vector, where $N$ is the number of samples drawn from Sampling/Importance Resampling in the process of achieving `num_posterior_samples`. The last column represents sample likelihoods, while the first $D$ dimensions corresponds to posterior samples. `Emulator.labels` provides the identity of each column.
 
 
 #### Supported observables for the `asfgrid` grid
