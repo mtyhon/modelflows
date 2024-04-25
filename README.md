@@ -90,6 +90,8 @@ The following are observables that can be present in the dictionary of observati
 * `feh`: Iron abundance in dex
 * `feh_err`: Iron abundance uncertainty in dex
 
+If you find `asfgrid`  results useful for your research, please consider also citing [Sharma et al. (2016)](https://ui.adsabs.harvard.edu/abs/2016ApJ...822...15S/abstract) and [Stello & Sharma (2022)](https://ui.adsabs.harvard.edu/abs/2022RNAAS...6..168S). 
+
 #### Supported observables for the `cnfgiant` grid
 
 `cnfgiant` is defined only for hydrogen shell-burning stars with  $0.7M_{\odot}\leq M\leq2.5M_{\odot}$ (i.e., on the red giant branch). 
@@ -108,6 +110,8 @@ The following are observables that can be present in the dictionary of observati
 * `feh_err`: Iron abundance uncertainty in dex
 * `lum`: Bolometric stellar luminosity in units of solar luminosity
 * `lum_err`: Bolometric stellar luminosity uncertainty in units of solar luminosity
+
+
 
 ## TO-DO
 
