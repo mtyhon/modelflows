@@ -7,9 +7,9 @@ An interactive visualization can be found [here](https://mtyhon--modelflows-inyo
 
 A description of the emulator can be found in the paper, which is under review. Experiments in the paper are described in the notebooks found in this repo, which can be downloaded and ran locally.
 
-The experiments require the grid of models [here](https://www.dropbox.com/scl/fi/yyfl98nrygg692t807uae/grid.zip?rlkey=6ausvk1wtk7r2vgc95cpdgv3m&dl=0) and the trained conditional normalizing flows (CNF<sub>dwarf</sub>, CNF<sub>giant</sub>, and CNF<sub>asfgrid</sub>) 
-[here](https://www.dropbox.com/scl/fi/fvfzzcxojwv56bfable90/pretrained_flows.zip?rlkey=0pka2ddu9s0j61dk5xxsotmws&dl=0). Unzip these files into the main folder. The grid is optional, but necessary to visualize comparisons with its emulation.
+The experiments require the grid of models [here](https://www.dropbox.com/scl/fi/yyfl98nrygg692t807uae/grid.zip?rlkey=6ausvk1wtk7r2vgc95cpdgv3m&dl=0) and the trained conditional normalizing flows ([CNF<sub>giant</sub>](https://www.dropbox.com/scl/fi/yo3e8bwc8zu23o25ynlzd/cnf_giant.checkpoint?rlkey=kv0vgovsda5jwep1m04dyfigp&dl=1), and [CNF<sub>asfgrid</sub>]('https://www.dropbox.com/scl/fi/owk1pscj8tg3irdrm16px/cnf_asfgrid.checkpoint?rlkey=wxijcgbsxxxcq6xbhe70w2jiy&dl=1)). The original grids and the CNF<sub>dwarf</sub> emulator will be uploaded soon.
 
+ 
 If you are simply interested in the sampling the emulator to infer stellar parameters, see the following.
 
 ## Getting Started
