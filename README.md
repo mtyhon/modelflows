@@ -7,7 +7,9 @@ An interactive visualization can be found [here](https://mtyhon--modelflows-inyo
 
 A description of the emulator can be found in the paper, which is under review. Experiments in the paper are described in the notebooks found in this repo, which can be downloaded and ran locally.
 
-The trained conditional normalizing flows ([CNF<sub>giant</sub>](https://www.dropbox.com/scl/fi/yo3e8bwc8zu23o25ynlzd/cnf_giant.checkpoint?rlkey=kv0vgovsda5jwep1m04dyfigp&dl=1) and [CNF<sub>asfgrid</sub>](https://www.dropbox.com/scl/fi/owk1pscj8tg3irdrm16px/cnf_asfgrid.checkpoint?rlkey=wxijcgbsxxxcq6xbhe70w2jiy&dl=1)) are presented here, though the code downloads them automatically if not already present. The original grids and the CNF<sub>dwarf</sub> emulator will be uploaded soon.
+The trained conditional normalizing flows ([CNF<sub>giant</sub>](https://www.dropbox.com/scl/fi/yo3e8bwc8zu23o25ynlzd/cnf_giant.checkpoint?rlkey=kv0vgovsda5jwep1m04dyfigp&dl=1) and [CNF<sub>asfgrid</sub>](https://www.dropbox.com/scl/fi/owk1pscj8tg3irdrm16px/cnf_asfgrid.checkpoint?rlkey=wxijcgbsxxxcq6xbhe70w2jiy&dl=1)) are presented here, though the code downloads them automatically if not already present.
+
+To run the visualization notebooks involving main sequence models, you will require the CNF<sub>dwarf</sub> emulator, whose checkpoint is presented [here](https://www.dropbox.com/scl/fi/vmklvioxdbsbuky4vn8mk/cnf_dwarf.checkpoint?rlkey=4lachmnlcq8brqkhp1b9nnh3m&st=d5imyms4&dl=0), and grid is presented [here](https://www.dropbox.com/scl/fi/uk61q6gorh7ux2p12a214/p-mode.parquet?rlkey=9szrr545eyesu5j9mk7kbbg63&st=ag2saae3&dl=0). Following the notebooks, the checkpoint should be placed in the `FLOW_DIR` directory, whereas the grid should be placed in the `/grid/` subdirectory.
 
  
 If you are simply interested in the sampling the emulator to infer stellar parameters, see the following.
